@@ -1,13 +1,49 @@
-<html lang="el">
- <head>
-  <meta charset="UTF-8">
-  <title>Doc</title>
+<!DOCKTYPE html>
+<html lang="en">
   
- </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>send email</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  
 <body>
-
-<h1><p>Hello  </p></h1>
-<h2><p>You Succeed </p></h2>
-
-
+  <!-- comments -->
+  <section>
+    <div class="container">
+      
+     <form action="https://formsubmit.co/harisgeo.vl@gmail.com" method="post">
+        
+        <div class="form-group"> 
+          <label for="firstName">Όνομα</label>
+          <input type="text" id="firstName" name="firstName">
+        </div>
+        
+        <div class="form-group">
+          
+          <label for="lastName">Επώνυμο</label>
+          <input type="text" id="lastName" name="lastName" >
+        </div>
+          
+        <div class="form-group">
+          <label for="number">Αριθμός ημέρας</label>
+          <input type="text" id="text" name="text">
+        </div>
+        
+        <div class= "form-group">
+          <label for="Message">Message</label>
+         <!-- <input type="text" id="Message" name="Message"> -->
+          <textarea name="Message" id="Message" col="30" row="10"></textarea>
+        </div>
+        <button type="submit">Υποβολή</button>  
+       </div>
+        
+      </form>
+    
+    </div>
+  
+   <div id="status" class="Try again">Success</div>
+   
+  
 </body>
